@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-c(h875y$++hc-8dx=@+5d&z((0*5@^w$n#%doj9^!qrrlpchd8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ["camera_log.onrender.com"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
