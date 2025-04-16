@@ -22,7 +22,7 @@ chrome_options.add_argument("--no-sandbox")
 service = Service("chromedriver-win64/chromedriver-win64/chromedriver.exe")
 driver = webdriver.Chrome(service=service, options=chrome_options)
 # Slack configuration
-slack_webhook_url = "https://hooks.slack.com/services/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"
+slack_webhook_url = "https://hooks.slack.com/services/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"
 # Track start time of status changes
 status_start_times = {}
 # Function to send Slack notifications
